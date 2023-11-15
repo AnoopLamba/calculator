@@ -33,7 +33,7 @@ function Calculator() {
   };
 
   return (
-    <div className="calculator">
+    <div className="calculator p-3">
       <Display input={input} result={result} />
       <div className="buttons">
         {ButtonsData.map((value) => (

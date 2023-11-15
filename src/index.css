@@ -4,24 +4,18 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.App {
   min-height: 100vh;
 }
 
 .calculator {
   width: 300px;
-  margin: auto;
-  padding: 16px;
   border: 1px solid rgb(152, 152, 152);
   border-radius: 10px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 .display {
-  margin-bottom: 16px;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
@@ -30,11 +24,8 @@ body {
 .input,
 .result {
   height: 50px;
-  background-color: #010101;
   padding: 10px;
-  text-align: right;
   font-size: 24px;
-  color: white;
 }
 
 .buttons {
@@ -44,16 +35,12 @@ body {
 }
 
 .button {
-  padding: 16px;
   font-size: 24px;
   cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #f6b327;
-  transition: all 200ms ease-in-out;
 }
 
 .button:hover {
-  background-color: #ba860c;
   transform: scale(1.05);
 }
